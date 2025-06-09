@@ -7,16 +7,19 @@ import Footer from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Izabela Fattori - UI/UX Designer Portfolio",
+  title: "Izabela Fattori – UI/UX Designer & QA Engineer",
   description:
-    "UI/UX Designer with 3 years of experience creating intuitive and beautiful digital experiences.",
+    "UI/UX Designer and QA Engineer with 3+ years of experience creating intuitive, accessible digital experiences and ensuring product quality through automation and testing.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   keywords:
-    "UI/UX Designer, Portfolio, Web Design, User Experience, User Interface, Izabela Fattori",
+    "UI/UX Designer, QA Engineer, Portfolio, Web Design, User Experience, Test Automation, Accessibility, Cypress, Figma, Izabela Fattori",
   authors: [{ name: "Izabela Fattori" }],
   openGraph: {
-    title: "Izabela Fattori - UI/UX Designer Portfolio",
+    title: "Izabela Fattori – UI/UX Designer & QA Engineer",
     description:
-      "UI/UX Designer with 3 years of experience creating intuitive and beautiful digital experiences.",
+      "UI/UX Designer and QA Engineer with 3+ years of experience designing user-centered interfaces and implementing robust QA strategies.",
     type: "website",
   },
 };
