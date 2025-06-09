@@ -81,7 +81,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">São Paulo, Brazil</p>
+                    <p className="text-gray-600">
+                      Alphaville - São Paulo, Brazil
+                    </p>
                   </div>
                 </div>
               </div>
