@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Project } from "@/types";
+import Image from "next/image";
 
 interface ProjectCardProps {
   project: Project;
@@ -9,10 +10,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="group relative bg-white rounded-xl shadow-lg overflow-hidden card-hover">
       <div className="aspect-video bg-gradient-to-br from-purple-100 to-purple-200 relative overflow-hidden">
-        {/* Project image placeholder */}
-        <div className="absolute inset-0 flex items-center justify-center text-purple-600 text-4xl font-bold">
-          {project.title.charAt(0)}
-        </div>
+        {/* Project image */}
+        <Image src={project.image} alt={project.title} fill />
 
         {/* Overlay on hover */}
         <div className="absolute inset-0 bg-gradient-to-t from-purple-900/90 to-purple-600/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">

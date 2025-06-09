@@ -25,7 +25,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         ref={ref}
         className={cn(
-          "font-medium rounded-lg transition-all duration-200 transform hover:scale-105",
+          "font-medium rounded-lg transition-all duration-200 transform hover:scale-105 cursor-pointer",
           variants[variant],
           sizes[size],
           className

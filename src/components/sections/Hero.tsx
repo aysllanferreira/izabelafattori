@@ -6,6 +6,7 @@ import SocialLinks from "@/components/ui/SocialLinks";
 import FadeIn from "@/components/animations/FadeIn";
 import { socialLinks } from "@/lib/data";
 import { scrollToSection } from "@/lib/utils";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -62,10 +63,12 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
               <div className="relative bg-gradient-to-br from-purple-400 to-purple-600 rounded-full w-80 h-80 mx-auto overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 bg-purple-600 opacity-20"></div>
-                {/* Profile image placeholder */}
-                <div className="flex items-center justify-center h-full text-white text-6xl font-bold">
-                  IF
-                </div>
+                <Image
+                  src="/images/iza.jpg"
+                  alt="Izabela Fattori"
+                  fill
+                  className="object-fit"
+                />
               </div>
             </div>
           </FadeIn>

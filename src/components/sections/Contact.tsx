@@ -67,10 +67,10 @@ export default function Contact() {
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
                     <a
-                      href="mailto:izabela.fattori@example.com"
+                      href="mailto:izafattori2@gmail.com"
                       className="text-purple-600 hover:underline"
                     >
-                      izabela.fattori@example.com
+                      izafattori2@gmail.com
                     </a>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export default function Contact() {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full flex items-center justify-center gap-2"
+                className="w-full flex items-center justify-center gap-2 cursor-pointer"
               >
                 Send Message
                 <Send size={20} />

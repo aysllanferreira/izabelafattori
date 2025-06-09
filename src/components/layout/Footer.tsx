@@ -22,9 +22,6 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>© {currentYear} Izabela Fattori. All rights reserved.</p>
-          <p className="mt-2 text-sm">
-            Designed & Built with 💜 using Next.js and Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>
