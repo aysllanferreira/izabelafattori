@@ -12,9 +12,9 @@ export default function Timeline() {
               My <span className="gradient-text">Journey</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Minha trajetória profissional mostrando a evolução da minha
-              carreira, desde o início como QA Engineer até meu papel atual
-              combinando UI/UX Design e Engenharia de Qualidade.
+              My professional journey showcasing the evolution of my career,
+              from the beginning as a QA Engineer to my current role combining
+              UI/UX Design and Quality Engineering.
             </p>
           </div>
         </FadeIn>
